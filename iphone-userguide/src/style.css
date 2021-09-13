@@ -1,0 +1,104 @@
+#navbar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.navbar a {
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.navbar a:hover {
+    color: #f1f1f1;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  padding-left: 220px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+#intro {
+  line-height: 2.0;
+  padding-bottom: 20px;
+}
+
+p {
+  line-height: 2.0;
+}
+
+#settings-i {
+  width: 70px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+#appstore-i {
+  width: 70px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+#messages-i {
+  width: 70px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+#safari-i {
+  width: 90px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+#camera-i {
+  width: 70px;
+  padding-bottom: 200px;
+  padding-top: 20px;
+}
+
+h1 {
+  color: #818181;
+  padding-left: 25px;
+}
+
+#intro {
+  color: black;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 560px) {
+  #topic {
+    font-size: 16px;
+  }
+  
+  .navbar a {
+    font-size: 16px;
+  }
+  
+  .navbar {
+    width: 150px;
+  }
+  
+  main {
+    padding-left: 160px;
+  }
+}
+
+ 
